@@ -6,6 +6,24 @@
 
 This endpoint allows you to initiate an international money transfer between a sender and a recipient.
 
+## Authentication
+
+The Cross-Border Payment API uses Bearer token authentication for each request. 
+
+### Authentication Requirements
+
+1. **Bearer Token**: All API requests must include an `Authorization` header with a valid Bearer token.
+
+2. **Header Format**: The Authorization header must be formatted as follows:
+   ```
+   Authorization: Bearer <your_api_key>
+   ```
+### Obtaining an API Token
+
+To obtain an API token for production use, contact meCash Support at support@me-cash.com. You will need to provide:
+- Intended use case.
+- Expected transaction volume.
+
 ## Request
 
 ### Headers
@@ -139,7 +157,7 @@ Occurs when there is an issue on the server.
 
 ## Additional Information
 
-* This API enforces rate limits on requests to ensure system stability. You are allowed to make 100 requests per minute with each API key.
+* You are allowed to make 100 requests per minute with each API key. Making more calls will result to a 429 error (**Too Many Requests**)
 * Ensure that the **Authorization** header is included in every request.
 * The `amount` field should be a positive number.
 * The `currency` must be a valid ISO 4217 currency code.
