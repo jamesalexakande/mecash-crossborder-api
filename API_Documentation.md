@@ -157,7 +157,7 @@ Occurs when there is an issue on the server.
 
 ## Additional Information
 
-* You are allowed to make 100 requests per minute with each API key. Making more calls will result to a 429 error (**Too Many Requests**)
+* You are allowed to make 100 requests per minute with each API key. Making more calls will result in a 429 error (**Too Many Requests**)
 * Ensure that the **Authorization** header is included in every request.
 * The `amount` field should be a positive number.
 * The `currency` must be a valid ISO 4217 currency code.
