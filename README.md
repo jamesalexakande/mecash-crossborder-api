@@ -24,7 +24,7 @@ Open Terminal (Mac) or Powershell (Windows) and navigate to the desired director
 
 - Clone the repository to your local machine:
 
-  `git clone https://github.com/yourusername/mecash-crossborder-api.git`
+  `git clone https://github.com/jamesalexakande/mecash-crossborder-api`
 
 - Navigate to the cloned folder after the cloning process is complete 
 
