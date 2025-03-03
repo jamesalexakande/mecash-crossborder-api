@@ -165,4 +165,4 @@ Occurs when there is an issue on the server.
 
 ## Contact
 
-For further inquiries, contact **meCash API Support** at support@mecash.com.
+For further inquiries, contact **meCash API Support** at support@me-cash.com.
